@@ -2,14 +2,14 @@
 
 ## Grupo, nombre y legajo de integrantes
 
-- Nombre del grupo: **Completar**
+- Nombre del grupo: **NoCompila**
 
 Integrantes:
-- Legajo: **Completar** 
-- Nombre: **Completar**
+- Legajo: **211.477-0**
+- Nombre: **Alejandro Hector Luis**
 
 - Legajo: **Completar** 
-- Nombre: **Completar**
+- Nombre: **Trolessi Agustin**
 
 
 ## Objetivos

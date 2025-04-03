@@ -8,7 +8,7 @@ Integrantes:
 - Legajo: **211.477-0**
 - Nombre: **Alejandro Hector Luis**
 
-- Legajo: **Completar** 
+- Legajo: **221.283-3** 
 - Nombre: **Trolessi Agustin**
 
 

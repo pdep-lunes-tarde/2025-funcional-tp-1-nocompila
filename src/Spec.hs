@@ -60,20 +60,19 @@ suiteDeTestsDeParteII =
 
     describe "fahrenheitACelsius y celsiusAFahrenheit son inversas" $ do
       it "convertir un valor en celsius a fahrenheit y luego volver a convertir a celsius retorna el valor original" $ do
-        pendingWith "Escriban el cuerpo de un test en el que se chequee que si convierto un numero a fahrenheit y luego convierto el resultado a celsius obtengo el valor original"
-        shouldBe (fahrenheitACelsius (celsiusAFahrenheit 10) 50) 10
+        fahrenheitACelsius (celsiusAFahrenheit 10) `shouldBe` 10
       it "convertir un valor en fahrenheit a celsius y luego volver a convertir a fahrenheit retorna el valor original" $ do
-        shouldBe (celsiusAFahrenheit (fahrenheitACelsius 68) 20) 68
+        celsiusAFahrenheit (fahrenheitACelsius 68) `shouldBe` 68
       
 
     describe "haceFrioCelsius" $ do
       -- Pista: hay 3 casos a testear
       it "Es verdad cuando hacen menos de 8 grados celsius" $ do
-        shouldBe haceFrioCelsius 3 True
+        haceFrioCelsius 3 `shouldBe` True
       it "Es verdad cuando hacen 8 grados celsius" $ do
         haceFrioCelsius 8 `shouldBe` True
       it "Es falso cuando hacen menos de 8 grados celsius" $ do
-        shouldBe haceFrioCelsius 10 False
+        haceFrioCelsius 10 `shouldBe` False
 
     describe "haceFrioFahrenheit" $ do
       -- Pista: hay 3 casos a testear
@@ -82,7 +81,7 @@ suiteDeTestsDeParteII =
       it "Es falso cuando hacen mas de 46.4 grados Fahrenheit " $ do
         haceFrioFahrenheit 53.6 `shouldBe` False
       it "Es verdad cuando hacen menos de 46.4 grados Fahrenheit" $  do
-        haceFrioFahrenheit 50 `shouldBe` True
+        haceFrioFahrenheit 39.2 `shouldBe` True
           
 
 escribiTestsParaEstaFuncion :: SpecWith ()
